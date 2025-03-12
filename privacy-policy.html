@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Politique de confidentialité - Automatisation Vote PandakMC</title>
+</head>
+<body>
+  <h1>Politique de confidentialité</h1>
+  <p><strong>Dernière mise à jour : [Date]</strong></p>
+
+  <h2>1. Collecte et utilisation des données</h2>
+  <p>
+    Cette extension, <strong>Automatisation Vote PandakMC</strong>, ne collecte <strong>aucune donnée personnelle</strong> auprès des utilisateurs. Les seules informations utilisées sont les suivantes :
+  </p>
+  <ul>
+    <li><strong>Identifiant unique du CPU</strong> : L'extension génère un identifiant unique basé sur le modèle du CPU de l'appareil. Cet identifiant est utilisé uniquement pour vérifier que la clé d'activation est utilisée sur un seul appareil. Aucune information personnelle n'est collectée ou partagée.</li>
+    <li><strong>Clés d'activation</strong> : Les clés d'activation sont vérifiées via une API GitHub pour s'assurer qu'elles sont valides et non utilisées sur plusieurs appareils. Aucune donnée personnelle n'est transmise à des tiers.</li>
+    <li><strong>Données locales</strong> : L'extension utilise le stockage local (<code>chrome.storage.local</code>) pour enregistrer des informations telles que l'état d'activation de la clé, les délais de vote (<code>nextVoteTimeSite1</code> et <code>nextVoteTimeSite2</code>), et d'autres paramètres nécessaires au bon fonctionnement de l'extension. Ces données ne quittent jamais l'appareil de l'utilisateur.</li>
+  </ul>
+
+  <h2>2. Partage des données</h2>
+  <p>
+    Cette extension <strong>ne partage aucune donnée</strong> avec des tiers. Les informations utilisées (comme l'identifiant unique du CPU et les clés d'activation) sont traitées localement ou via une API GitHub sécurisée pour vérifier la validité des clés. Aucune donnée n'est transmise à des serveurs externes ou à des tiers.
+  </p>
+
+  <h2>3. Permissions utilisées</h2>
+  <p>
+    L'extension utilise les permissions suivantes pour fonctionner correctement. Voici les justifications pour chaque permission :
+  </p>
+  <ul>
+    <li><strong>activeTab</strong> : Cette permission permet à l'extension d'interagir avec les onglets ouverts sur les sites de vote (PandakMC, Serveur-Privé, et Top-Serveurs). Elle est utilisée pour cliquer sur les boutons de vote et naviguer entre les pages.</li>
+    <li><strong>alarms</strong> : Cette permission est utilisée pour planifier les votes à intervalles réguliers (1h30 ou 2h). Elle permet de respecter les délais imposés par les sites de vote.</li>
+    <li><strong>identity</strong> : Cette permission est utilisée pour accéder à l'API GitHub afin de vérifier les clés d'activation. Elle permet de s'assurer que les clés sont valides et non utilisées sur plusieurs appareils.</li>
+    <li><strong>scripting</strong> : Cette permission est utilisée pour exécuter des scripts sur les pages de vote. Elle permet de cliquer sur les boutons de vote, de récupérer les délais de vote, et d'interagir avec les éléments de la page.</li>
+    <li><strong>storage</strong> : Cette permission est utilisée pour stocker des informations locales, comme l'état d'activation de la clé et les délais de vote. Ces données ne quittent jamais l'appareil de l'utilisateur.</li>
+    <li><strong>system.cpu</strong> : Cette permission est utilisée pour générer un identifiant unique basé sur le modèle du CPU. Cet identifiant est utilisé pour vérifier que la clé d'activation est utilisée sur un seul appareil.</li>
+    <li><strong>tabs</strong> : Cette permission est utilisée pour gérer les onglets ouverts sur les sites de vote. Elle permet de naviguer entre les pages et de fermer les onglets après le vote.</li>
+  </ul>
+
+  <h2>4. Sécurité des données</h2>
+  <p>
+    La sécurité des données est une priorité pour cette extension. Voici les mesures prises pour protéger les informations des utilisateurs :
+  </p>
+  <ul>
+    <li><strong>Aucune collecte de données personnelles</strong> : L'extension ne collecte ni ne stocke aucune donnée personnelle.</li>
+    <li><strong>Données locales</strong> : Toutes les informations sont stockées localement sur l'appareil de l'utilisateur via <code>chrome.storage.local</code>. Ces données ne sont pas transmises à des serveurs externes.</li>
+    <li><strong>API sécurisée</strong> : Les clés d'activation sont vérifiées via une API GitHub sécurisée (HTTPS). Aucune donnée personnelle n'est transmise lors de cette vérification.</li>
+  </ul>
+
+  <h2>5. Objectif unique de l'extension</h2>
+  <p>
+    L'objectif unique de cette extension est d'automatiser les votes sur PandakMC pour les sites Serveur-Privé et Top-Serveurs. Elle permet aux utilisateurs de gagner du temps en votant automatiquement toutes les 1h30 ou 2h, selon les règles des sites. Une clé d'activation est nécessaire pour utiliser l'extension.
+  </p>
+
+  <h2>6. Utilisation de code distant</h2>
+  <p>
+    L'extension utilise du code distant pour vérifier les clés d'activation via une API GitHub. Cela permet de s'assurer que les clés sont valides et non utilisées sur plusieurs appareils. Aucune donnée personnelle n'est transmise lors de cette vérification.
+  </p>
+
+  <h2>7. Transparence et contrôle</h2>
+  <p>
+    Les utilisateurs ont un contrôle total sur les données utilisées par l'extension. Aucune donnée personnelle n'est collectée, et les informations stockées localement peuvent être supprimées à tout moment en désinstallant l'extension.
+  </p>
+
+  <h2>8. Contact</h2>
+  <p>
+    Pour toute question ou préoccupation concernant la confidentialité et l'utilisation des données, vous pouvez nous contacter à l'adresse suivante : <a href="mailto:votre-email@domaine.com">votre-email@domaine.com</a>.
+  </p>
+</body>
+</html>
