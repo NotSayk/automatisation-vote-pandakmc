@@ -2,7 +2,7 @@
 
 Extension Chrome permettant d'automatiser les votes sur les sites de classement pour le serveur **PandakMC**.
 
-> ⚠️ **Important** : Pour des raisons de règlement, cette extension est uniquement disponible sur Google Chrome (pas sur Edge ni d'autres navigateurs).
+> ⚠️ **Important** : Ceci n'est que la politique de confidentialité demandé par Google pour publier l'extension, le repository de l'extension est privée.
 
 ## 📋 Description
 
@@ -48,18 +48,6 @@ L'extension gère automatiquement les délais entre les votes et notifie l'utili
 - 🔑 Identifiant CPU utilisé uniquement pour la validation de clé
 
 Pour plus de détails, consultez la [Politique de confidentialité](privacy-policy.html).
-
-## 📦 Installation
-
-### Chrome Web Store
-*(À venir)*
-
-### Installation manuelle (Google Chrome uniquement)
-1. Télécharger le projet
-2. Ouvrir `chrome://extensions/`
-3. Activer le "Mode développeur"
-4. Cliquer sur "Charger l'extension non empaquetée"
-5. Sélectionner le dossier du projet
 
 ## 📞 Contact
 
