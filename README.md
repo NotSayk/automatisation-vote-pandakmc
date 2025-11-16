@@ -1,6 +1,8 @@
 # 🎮 Automatisation Vote PandakMC
 
-Extension Chrome/Edge permettant d'automatiser les votes sur les sites de classement pour le serveur **PandakMC**.
+Extension Chrome permettant d'automatiser les votes sur les sites de classement pour le serveur **PandakMC**.
+
+> ⚠️ **Important** : Pour des raisons de règlement, cette extension est uniquement disponible sur Google Chrome (pas sur Edge ni d'autres navigateurs).
 
 ## 📋 Description
 
@@ -49,12 +51,12 @@ Pour plus de détails, consultez la [Politique de confidentialité](privacy-poli
 
 ## 📦 Installation
 
-### Chrome Web Store / Edge Add-ons
+### Chrome Web Store
 *(À venir)*
 
-### Installation manuelle
+### Installation manuelle (Google Chrome uniquement)
 1. Télécharger le projet
-2. Ouvrir `chrome://extensions/` (ou `edge://extensions/`)
+2. Ouvrir `chrome://extensions/`
 3. Activer le "Mode développeur"
 4. Cliquer sur "Charger l'extension non empaquetée"
 5. Sélectionner le dossier du projet
